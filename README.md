@@ -1,4 +1,4 @@
-## challenge-ptm
+## Challenge-ptm
 
 # Product Manager
 
@@ -14,7 +14,7 @@ The project is divided into three main folders:
 
 3. **server**: Contains the back-end project developed in Java Spring.
 
-## client
+## Client
 
 The client is developed using React. To compile the project, follow these steps:
 
@@ -24,7 +24,7 @@ The client is developed using React. To compile the project, follow these steps:
 
 3. Run the following command to install the dependencies:
 
-npm install
+### `npm install`
 
 4. Once the installation is complete, run the following command to compile the project:
 
@@ -32,7 +32,15 @@ npm run build
 
 5. After the compilation, a "build" folder will be generated containing the static files ready to be deployed.
 
-## dataBase
+6. Alternatly, you can uns the app in the development mode with the comand:
+
+### `npm start`
+
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+
+
+## DataBase
 
 In the "dataBase" folder, you will find the SQL files required to create the MySQL database and its tables. You can use these files to create the database and tables.
 
@@ -42,7 +50,7 @@ In the "dataBase" folder, you will find the SQL files required to create the MyS
 
 3. Execute the provided SQL scripts from the corresponding file to create the required tables in the newly created database.
 
-## server
+## Server
 
 The server is developed using Java Spring. To run the project, follow these steps:
 
@@ -52,11 +60,11 @@ The server is developed using Java Spring. To run the project, follow these step
 
 3. Run the following command to compile the project:
 
-mvn clean install
+### `mvn clean install`
 
 4. After the compilation, run the following command to start the server:
 
-mvn spring-boot:run
+### `mvn spring-boot:run`
 
 The server will be available at `http://localhost:8080`.
 
