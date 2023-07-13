@@ -1,0 +1,17 @@
+### React ####
+client/node_modules/
+
+### Spring ###
+
+server/HELP.md
+server/target/
+
+### IntelliJ IDEA ###
+server/.idea
+server/*.iws
+server/*.iml
+server/*.ipr
+
+### VS Code ###
+
+client/.vscode/
